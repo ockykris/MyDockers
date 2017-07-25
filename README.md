@@ -10,6 +10,6 @@ Collection of Dockers Image and Containers
 1. Trusty-Ubuntu --> Dockerfile from base of Ubuntu 14.04 with addition some basic packages
 2. Trusty-Java --> Dockerfile from base of Trusty-Ubuntu with addition of OpenJDK-8
 3. Trusty-Jenkins --> Dockerfile from base of Trusty-Java and persistence settings in /var/jenkins
-  3.1. Trusty-Jenkins-Qt --> Add Qt5.7 for Jenkins execution
-  3.2. TBA
+    * Trusty-Jenkins-Qt --> Add Qt5.7 for Jenkins execution
+    * Trusty-Jenkins-Gradle --> TBA
 
