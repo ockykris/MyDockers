@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deletedattachmentids serializer="deleted-attachment-id-mappings/1.0">
+ <entry>
+  <id>2058282014896224848</id>
+  <path>/usr/local/xwiki/data/storage/xwiki/XWiki/XWikiPreferences/~this/deleted-attachments/package.xml-1500969552890</path>
+ </entry>
+ <entry>
+  <id>-2281309707841373587</id>
+  <path>/usr/local/xwiki/data/storage/xwiki/XWiki/XWikiPreferences/~this/deleted-attachments/AdminThemesSheet.xml-1500969581330</path>
+ </entry>
+ <entry>
+  <id>2058282014896224805</id>
+  <path>/usr/local/xwiki/data/storage/xwiki/XWiki/XWikiPreferences/~this/deleted-attachments/package.xml-1500969509859</path>
+ </entry>
+ <entry>
+  <id>3737932673687419462</id>
+  <path>/usr/local/xwiki/data/storage/xwiki/XWiki/XWikiPreferences/~this/deleted-attachments/AccountValidation.xml-1500969542818</path>
+ </entry>
+</deletedattachmentids>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><extension>
+<id>commons-daemon:commons-daemon</id>
+<version>1.0.15</version>
+<type>jar</type>
+<name>Commons Daemon</name>
+<summary>Apache Commons Daemon software provides an alternative invocation mechanism for unix-daemon-like Java code.</summary>
+<website>http://commons.apache.org/daemon/</website>
+<authors>
+<author>
+<name>Jean-Frederic Clere</name>
+</author>
+<author>
+<name>Remy Maucherat</name>
+</author>
+<author>
+<name>Yoav Shapira</name>
+</author>
+<author>
+<name>Bill Barker</name>
+</author>
+<author>
+<name>Mladen Turk</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>Apache License 2.0</name>
+</license>
+</licenses>
+<scm>
+<url>http://svn.apache.org/viewvc/commons/proper/daemon/trunk</url>
+<connection>
+<system>svn</system>
+<path>http://svn.apache.org/repos/asf/commons/proper/daemon/trunk</path>
+</connection>
+<developerconnection>
+<system>svn</system>
+<path>https://svn.apache.org/repos/asf/commons/proper/daemon/trunk</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://issues.apache.org/jira/browse/DAEMON</url>
+</issuemanagement>
+<properties>
+<maven.groupid>commons-daemon</maven.groupid>
+<maven.artifactid>commons-daemon</maven.artifactid>
+<core.url type="url">file:/usr/local/tomcat/bin/commons-daemon.jar</core.url>
+<core.descriptorurl type="url">jar:file:/usr/local/tomcat/bin/commons-daemon.jar!/META-INF/maven/commons-daemon/commons-daemon/pom.xml</core.descriptorurl>
+</properties>
+</extension>

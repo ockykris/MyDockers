@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><extension>
+<id>org.xwiki.platform:xwiki-platform-wysiwyg-client</id>
+<version>8.4.5</version>
+<type>jar</type>
+<name>XWiki Platform - WYSIWYG Editor - Client Side</name>
+<summary>The client side of XWiki's WYSIWYG editor. This is a reusable rich text editor all written in GWT.</summary>
+<website>http://extensions.xwiki.org?id=org.xwiki.platform:xwiki-platform-wysiwyg-client:8.4.5:::/xwiki-commons-pom/xwiki-platform/xwiki-platform-core/xwiki-platform-wysiwyg/xwiki-platform-wysiwyg-client</website>
+<authors>
+<author>
+<name>XWiki Development Team</name>
+</author>
+</authors>
+<licenses>
+<license>
+<name>GNU Lesser General Public License 2.1</name>
+</license>
+</licenses>
+<scm>
+<url>https://github.com/xwiki/xwiki-platform/tree/master/xwiki-platform-core/xwiki-platform-wysiwyg/xwiki-platform-wysiwyg-client/</url>
+<connection>
+<system>git</system>
+<path>git://github.com/xwiki/xwiki-platform.git/xwiki-platform-core/xwiki-platform-wysiwyg/xwiki-platform-wysiwyg-client</path>
+</connection>
+<developerconnection>
+<system>git</system>
+<path>git@github.com:xwiki/xwiki-platform.git/xwiki-platform-core/xwiki-platform-wysiwyg/xwiki-platform-wysiwyg-client</path>
+</developerconnection>
+</scm>
+<issuemanagement>
+<system>jira</system>
+<url>http://jira.xwiki.org/jira/browse/XWIKI</url>
+</issuemanagement>
+<dependencies>
+<dependency>
+<id>org.xwiki.platform:xwiki-platform-tree-webjar</id>
+<version>8.4.5</version>
+<properties>
+<maven.dependency.scope>runtime</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+<dependency>
+<id>org.xwiki.commons:xwiki-commons-component-api</id>
+<version>8.4.5</version>
+<properties>
+<maven.dependency.scope>compile</maven.dependency.scope>
+<maven.dependency.optional type="boolean">false</maven.dependency.optional>
+</properties>
+</dependency>
+</dependencies>
+<properties>
+<maven.groupid>org.xwiki.platform</maven.groupid>
+<maven.artifactid>xwiki-platform-wysiwyg-client</maven.artifactid>
+<core.url type="url">file:/usr/local/tomcat/webapps/ROOT/WEB-INF/lib/xwiki-platform-wysiwyg-client-8.4.5-shared.jar</core.url>
+<core.descriptorurl type="url">jar:file:/usr/local/tomcat/webapps/ROOT/WEB-INF/lib/xwiki-platform-wysiwyg-client-8.4.5-shared.jar!/META-INF/maven/org.xwiki.platform/xwiki-platform-wysiwyg-client/pom.xml</core.descriptorurl>
+</properties>
+</extension>
