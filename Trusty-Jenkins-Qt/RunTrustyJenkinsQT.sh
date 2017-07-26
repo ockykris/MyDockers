@@ -1,4 +1,7 @@
 #! /bin/bash
 
 docker rm -f Jenkins-QT
+
+echo "Restore Docker Volume"
+docker run -v ${PWD}/VarJenkins:/volume -v ${PWD}/Backup:/backup --rm loomchild/volume-backup restore jenkins
 docker run -d -p 8080:8080 -p 50000:50000 --name Jenkins-QT -v ${PWD}/VarJenkins:/var/jenkins kristant/trusty-jenkins-qt
