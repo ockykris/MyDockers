@@ -1,7 +1,14 @@
 #! /bin/bash
 
 #docker start $(docker ps -a -q)
+BASEFOLDER="${PWD}"
 
 echo "Starting Trusty Jenkins QT"
-cd Trusty-Jenkins-Qt && echo ${PWD} && ./RunTrustyJenkinsQT.sh
+cd Trusty-Jenkins-Qt  && ./RunTrustyJenkinsQT.sh
 
+cd $BASEFOLDER
+
+echo "Starting XWiki"
+cd XWiki && ./RunXWiki.sh
+
+cd $BASEFOLDER
